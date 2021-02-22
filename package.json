@@ -11,16 +11,13 @@
     "watch:all": "parallelshell 'npm run watch:scss' 'npm run lite'",
     "start": "npm run watch:all"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/BrianLeip/content-creator-site-template.git"
-  },
-  "author": "",
+
+  "author": "James McDonnell",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/BrianLeip/content-creator-site-template/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/BrianLeip/content-creator-site-template#readme",
+  "homepage": "",
   "dependencies": {
     "bootstrap": "^4.5.2",
     "jQuery": "^1.7.4",
