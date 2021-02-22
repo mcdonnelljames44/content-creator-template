@@ -1,0 +1,36 @@
+{
+  "name": "content-creator-site-template",
+  "version": "1.0.0",
+  "description": "A custom designed website template made in bootstrap, that can be used by any content creator to display their creations, tutorials, and any items available for purchase",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server",
+    "scss": "node-sass -o css/ css/",
+    "watch:scss": "onchange 'css/*.scss' -- npm run scss",
+    "watch:all": "parallelshell 'npm run watch:scss' 'npm run lite'",
+    "start": "npm run watch:all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrianLeip/content-creator-site-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrianLeip/content-creator-site-template/issues"
+  },
+  "homepage": "https://github.com/BrianLeip/content-creator-site-template#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jQuery": "^1.7.4",
+    "jquery": "^3.5.1",
+    "lite-server": "^2.5.4"
+  },
+  "devDependencies": {
+    "node-sass": "^4.14.1",
+    "onchange": "^7.0.2",
+    "parallelshell": "^3.0.1",
+    "popper.js": "^1.16.1"
+  }
+}

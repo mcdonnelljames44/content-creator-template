@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Quicksand&family=Open+Sans&display=swap" rel="stylesheet">
+    <!-- Custom CSS-->
+    <link href="css/styles.css" rel="stylesheet">
+    
+    <title>Content Creator Template</title>
+</head>
+
+<body class="background-gradient">
+
+    <!-- Navigation-->
+    <nav id="navbar" class="navbar navbar-expand-md navbar-light fixed-top px-lg-5">
+        <div class="container-fluid">
+            <div>
+                <a href="index.html"><i class="fas fa-fire navbar-icon-font mx-2"></i></a>
+                <a href="index.html" class="navbar-brand gradient-text ml-3">Creative Brand Name</a>
+            </div>
+            <div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapsable" aria-controls="navbarCollapsable" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button> 
+                <div class="collapse navbar-collapse" id="navbarCollapsable">
+                    <ul class="navbar-nav navbar-right">
+                        <li class="nav-item"><a class="nav-link" href="/index.html"><i class="fas fa-photo-video"></i> Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/courses.html"><i class="fab fa-leanpub"></i> Courses</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/store.html"><i class="fas fa-shopping-cart"></i> Store</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="/contact.html"><i class="fas fa-portrait"></i> Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main-->
+    <main id="main">
+        <!-- Contact-->
+        <section id="contact">
+            <br>
+            <h1>CONTACT US</h1>
+            <br><br><br><br>
+            <form class="center">
+                <div class="row justify-content-center my-2">
+                    <div class="col-5 col-md-4 col-lg-3 col-xl-2">
+                        <input id="firstName" type="text" class="form-control" name="firstName" placeholder="First name" required>
+                    </div>
+                    <div class="col-5 col-md-4 col-lg-3 col-xl-2">
+                        <input id="lastName" type="text" class="form-control" name="lastName" placeholder="Last name" required>
+                    </div>
+                </div>
+                <div class="row justify-content-center my-2">
+                    <div class="col-10 col-md-8 col-lg-6 col-xl-4">
+                        <input id="email" type="email" class="form-control" name="email" placeholder="email@address.com" required>
+                    </div>
+                </div>
+                <div class="row justify-content-center my-4">
+                    <div class="col-10 col-md-8 col-lg-6 col-xl-4">
+                        <textarea id="message" type="textarea" class="form-control" name="message" rows="10" cols="50" 
+                            placeholder="Write your message here and we will get back to you shortly!" required></textarea>
+                    </div>
+                </div>
+                <button id="submit" type="submit" name="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </section>
+        <br><br><br><br>
+    </main>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/smoothScroll.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+<footer>
+    <!-- Email Signup-->
+    <section id="signup">
+        <h1 class="my-0">Sign Up</h1>
+        <div class="center mt-4">
+            <p class="my-2">Enter your email to receive <strong>FREE</strong> giveaways and get notified whenever new courses, tutorials or products are released</p>
+            <form id="form" action="#">
+                <div class="input-group container w-25">
+                    <input id="email" type="email" class="form-control" name="email" placeholder="email@address.com" required>
+                    <div class="input-group-append">
+                        <button id="submit" type="submit" class="btn btn-outline-primary" value="input email">Submit</button>
+                    </div>
+                </div>
+            </form>
+            <br>
+        </div>
+    </section>
+    <!-- Social-->
+    <section id="contact">
+        <div class="container center">
+            <a class="social" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a class="social" href="https://twitter.com/rickastley" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a class="social" href="https://github.com/topics/rickroll" target="_blank"><i class="fab fa-github"></i></a>
+            <a class="social" href="https://www.linkedin.com/in/rick-astley-36464a1b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a class="social" href="https://www.facebook.com/RickAstley" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a class="social" href="https://www.instagram.com/officialrickastley/" target="_blank"><i class="fab fa-instagram-square"></i></a>
+        </div>
+        <div>
+            <p class="copyright"><i class="far fa-copyright"></i> Copyright 2020 Brian Leip</p>
+        </div>
+    </section>
+</footer>
+
+</html>
